@@ -1,0 +1,14 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.dasheen.common.config.DasheenAutoConfiguration
+
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+  com.dasheen.common.startup.MyApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+  com.dasheen.common.startup.MyApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+  com.dasheen.common.startup.MySpringApplicationRunListener
